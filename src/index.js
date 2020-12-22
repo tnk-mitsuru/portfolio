@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './Components/Header';
+import Profile from './Components/Profile';
+import Contents from './Components/Contents';
+import Biography from './Components/Biography';
+import Copyright from './Components/Copyright';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Profile />
+    <Contents />
+    <Biography />
+    <Copyright />
   </React.StrictMode>,
   document.getElementById('root')
 );

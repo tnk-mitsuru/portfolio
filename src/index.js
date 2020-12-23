@@ -5,9 +5,9 @@ import './index.css';
 import Home from './Pages/Home';
 import WebDesign from './Pages/WebDesign';
 import ConceptArt from './Pages/ConceptArt';
+import Other from './Pages/Other';
 import Copyright from './Components/Copyright';
 import reportWebVitals from './reportWebVitals';
-import Other from './Pages/Other';
 
 ReactDOM.render(
   <React.StrictMode>

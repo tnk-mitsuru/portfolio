@@ -1,6 +1,6 @@
 import Header from '../Components/Header';
 import Introduction from '../Components/Introduction';
-import Process from '../Components/Process';
+import ProcessConceptArt from '../Components/ProcessConceptArt';
 import Note from '../Components/Note';
 
 function ConceptArt() {
@@ -9,7 +9,7 @@ function ConceptArt() {
     コンセプトアート
       <Header />
       <Introduction />
-      <Process />
+      <ProcessConceptArt />
       <Note />
     </div>
   );

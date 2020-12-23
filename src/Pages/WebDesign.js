@@ -1,6 +1,6 @@
 import Header from '../Components/Header';
 import Introduction from '../Components/Introduction';
-import Process from '../Components/Process';
+import ProcessWebDesign from '../Components/ProcessWebDesign';
 import Note from '../Components/Note';
 
 function WebDesign() {
@@ -9,7 +9,7 @@ function WebDesign() {
       <p>WebDesign</p>
       <Header />
       <Introduction />
-      <Process />
+      <ProcessWebDesign />
       <Note />
     </div>
   );

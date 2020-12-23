@@ -1,19 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
-import Header from './Components/Header';
-import Profile from './Components/Profile';
-import Contents from './Components/Contents';
-import Biography from './Components/Biography';
+import Home from './Pages/Home';
+import WebDesign from './Pages/WebDesign';
+import ConceptArt from './Pages/ConceptArt';
 import Copyright from './Components/Copyright';
 import reportWebVitals from './reportWebVitals';
+import Other from './Pages/Other';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Profile />
-    <Contents />
-    <Biography />
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/WebDesign' component={WebDesign}/>
+        <Route exact path='/ConceptArt' component={ConceptArt}/>
+        <Route exact path='/Other' component={Other}/>
+      </Switch>
+    </BrowserRouter>
     <Copyright />
   </React.StrictMode>,
   document.getElementById('root')

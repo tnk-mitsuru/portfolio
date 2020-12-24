@@ -6,8 +6,8 @@ import Note from '../Components/Note';
 function ConceptArt() {
   return (
     <div>
-    コンセプトアート
       <Header />
+      <h1>コンセプトアート</h1>
       <Introduction />
       <ProcessConceptArt />
       <Note />

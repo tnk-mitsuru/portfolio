@@ -1,7 +1,7 @@
 function Other() {
     return (
       <div className="Other">
-        <p>ああああ</p>
+        <p>補足説明</p>
       </div>
     );
   }

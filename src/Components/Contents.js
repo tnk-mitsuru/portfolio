@@ -5,21 +5,15 @@ function Contents() {
     <div className="Contents">
         <section>
           <h2>Webデザイン</h2>
-            <Link to="/WebDesign">
-              <img src="" alt="Webデザインについて"/>
-            </Link>
+            <Link to="/WebDesign">Webデザインについて</Link>
         </section>
         <section>
           <h2>コンセプトアート</h2>
-            <Link to="/ConceptArt">
-              <img src="" alt="コンセプトアートについて"/>
-            </Link>
+            <Link to="/ConceptArt">コンセプトアートについて</Link>
         </section>
         <section>
           <h2>その他スキル</h2>
-            <Link to="/Other">
-              <img src="" alt="その他スキルについて"/>
-            </Link>
+            <Link to="/Other">その他スキルについて</Link>
         </section>
     </div>
   );

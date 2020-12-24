@@ -6,8 +6,8 @@ import Note from '../Components/Note';
 function WebDesign() {
   return (
     <div>
-      <p>WebDesign</p>
       <Header />
+      <h1>ウェブデザイン</h1>
       <Introduction />
       <ProcessWebDesign />
       <Note />

@@ -1,0 +1,7 @@
+
+.mainArt {
+    background: url(../images/mainArt.jpg) no-repeat 50% 45%;
+    background-size: cover;
+    height: 250px;
+    border-radius: 8px;
+}

@@ -1,0 +1,11 @@
+.wapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.lists {
+    display: flex;
+}
+li {
+    padding: 0 10px;
+}

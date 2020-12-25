@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(229, 207, 186);
+}
+.pageframe {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+a {
+    color: rgb(19, 79, 158);
+}

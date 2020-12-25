@@ -1,9 +1,9 @@
-import mainArtImg from '../images/mainArt.jpg';
+import styles from '../styles/mainArt.module.css';
 
 function MainArt() {
   return (
-    <div className="mainArtImg">
-      <img src={mainArtImg} width="900" alt="メインアート" />
+    <div className={styles.wapper}>
+      <div className={styles.mainArt}></div>
     </div>
   );
 }

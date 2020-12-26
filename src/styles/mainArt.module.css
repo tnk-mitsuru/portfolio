@@ -1,4 +1,6 @@
-
+.wrapper {
+    padding-bottom: 16px;
+}
 .mainArt {
     background: url(../images/mainArt.jpg) no-repeat 50% 50%;
     background-size: cover;

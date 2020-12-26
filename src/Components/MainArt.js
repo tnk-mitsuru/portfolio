@@ -1,9 +1,9 @@
-import styles from '../styles/mainArt.module.css';
+import componentStyles from '../styles/mainArt.module.css';
 
 function MainArt() {
   return (
-    <div className={styles.wapper}>
-      <div className={styles.mainArt}></div>
+    <div className={componentStyles.wrapper}>
+      <div className={componentStyles.mainArt}></div>
     </div>
   );
 }

@@ -1,12 +1,15 @@
-.wapper {
+.blockMargin {
     display: flex;
     justify-content: space-between;
-    margin: 10px auto;
+    margin: 0 auto;
     max-width: 1000px;
+}
+.heading {
+    padding: 16px;
 }
 .lists {
     display: flex;
 }
-li {
-    padding: 0 10px;
+.list {
+    padding: 16px;
 }

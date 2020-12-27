@@ -1,15 +1,15 @@
-.blockMargin {
+.header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1000px;
-}
-.heading {
-    padding: 16px;
-}
-.lists {
-    display: flex;
-    /* & li {
+    & h1 {
         padding: 16px;
-    } */
+    }
+    & ul {
+        display: flex;
+        & li {
+            padding: 16px;
+        }
+    }
 }

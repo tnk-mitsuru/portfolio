@@ -1,11 +1,8 @@
-import commonStyles from '../styles/common.module.css';
-// import componentStyles from '../styles/biography.module.css';
-
 function Biography() {
   return (
-    <div className={commonStyles.mainBlockMargin}>
+    <div className="mainBlockMargin">
       <section>
-        <h2 className={commonStyles.headingSmall}>略歴</h2>
+        <h2 className="headingSmall">略歴</h2>
         <table>
           <tbody>
             <tr><th>2008-2010</th><td>東京大学大学院 地球惑星科学専攻</td></tr>

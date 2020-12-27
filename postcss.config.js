@@ -5,7 +5,6 @@ module.exports = (ctx) => {
   return {
     map: ctx.options.map,
     plugins: {
-      'postcss-import': {},
       'postcss-preset-env': {
         stage: 3,
         features: {
@@ -16,6 +15,7 @@ module.exports = (ctx) => {
           grid: 'autoplace'
         },
       },
+      'postcss-import': {},
       'postcss-flexbugs-fixes': {}
     },
   }

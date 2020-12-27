@@ -1,4 +1,5 @@
-
-.sectionBlock {
-    margin-bottom: 16px;
+.contents {
+   & section {
+        margin-bottom: 16px;
+    }
 }

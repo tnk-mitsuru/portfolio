@@ -1,5 +1,5 @@
 /**
- * PostCSS Config
+ * PostCSS Config outside CRA
  */
 module.exports = (ctx) => {
   return {

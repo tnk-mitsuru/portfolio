@@ -9,7 +9,7 @@
 }
 .lists {
     display: flex;
-}
-.list {
-    padding: 16px;
+    /* & li {
+        padding: 16px;
+    } */
 }

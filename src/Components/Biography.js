@@ -1,5 +1,5 @@
 import commonStyles from '../styles/common.module.css';
-import componentStyles from '../styles/biography.module.css';
+// import componentStyles from '../styles/biography.module.css';
 
 function Biography() {
   return (

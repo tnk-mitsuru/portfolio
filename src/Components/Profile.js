@@ -1,5 +1,5 @@
 import commonStyles from '../styles/common.module.css';
-import componentStyles from '../styles/profile.module.css';
+// import componentStyles from '../styles/profile.module.css';
 
 function Profile() {
   return (

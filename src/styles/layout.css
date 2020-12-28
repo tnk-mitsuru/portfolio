@@ -36,3 +36,17 @@ a {
     font-size: 1.3rem;
     line-height: 1.4;
 }
+/* table */
+.tableSimple {
+    font-size: 1.5rem;
+    & th,& td {
+        padding: 4px 8px;
+        vertical-align: middle;
+    }
+    & th {
+        white-space: nowrap;
+    }
+    & td {
+        line-height: 1.4;
+    }
+}

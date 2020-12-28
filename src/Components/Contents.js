@@ -7,17 +7,14 @@ function Contents() {
       <section className={styles.webDesign}>
         <Link to="/WebDesign">
           <div className={styles.contntArt}></div>
-          <div className={styles.headingWrapper}><h2>ウェブデザイン</h2></div>
+          <div className={styles.headingWrapper}><h2>Web Design</h2></div>
         </Link>
       </section>
       <section className={styles.conceptArt}>
         <Link to="/ConceptArt">
           <div className={styles.contntArt}></div>
-          <div className={styles.headingWrapper}><h2>コンセプトアート</h2></div>
+          <div className={styles.headingWrapper}><h2>Concept Art</h2></div>
         </Link>
-      </section>
-      <section>
-        <Link to="/Other"><h2 className="text">その他スキルについて</h2></Link>
       </section>
     </div>
   );

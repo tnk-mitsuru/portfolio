@@ -5,7 +5,6 @@ import './index.css';
 import Home from './Pages/Home';
 import WebDesign from './Pages/WebDesign';
 import ConceptArt from './Pages/ConceptArt';
-import Other from './Pages/Other';
 import Copyright from './Components/Copyright';
 import reportWebVitals from './reportWebVitals';
 
@@ -17,7 +16,6 @@ ReactDOM.render(
           <Route exact path='/' component={Home}/>
           <Route exact path='/WebDesign' component={WebDesign}/>
           <Route exact path='/ConceptArt' component={ConceptArt}/>
-          <Route exact path='/Other' component={Other}/>
         </Switch>
       </BrowserRouter>
       <Copyright />

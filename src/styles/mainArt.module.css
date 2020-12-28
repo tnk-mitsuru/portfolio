@@ -2,7 +2,12 @@
     padding-bottom: 16px;
 }
 .mainArt {
-    background: url(../images/mainArt.jpg) no-repeat 50% 50%;
-    background-size: cover;
+    background: url(../images/mainArt.jpg) no-repeat 50%/cover;
     height: 250px;
+    & h1 {
+        padding: 3% 0 0 5%;
+        font-size: 4rem;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    }
 }

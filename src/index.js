@@ -6,7 +6,6 @@ import Home from './Pages/Home';
 import WebDesign from './Pages/WebDesign';
 import ConceptArt from './Pages/ConceptArt';
 import Other from './Pages/Other';
-import Header from './Components/Header';
 import Copyright from './Components/Copyright';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,7 +13,6 @@ ReactDOM.render(
   <React.StrictMode>
     <div className="pageframe">
       <BrowserRouter>
-        <Header />
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route exact path='/WebDesign' component={WebDesign}/>

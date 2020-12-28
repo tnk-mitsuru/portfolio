@@ -3,7 +3,7 @@ import Profile from '../Components/Profile';
 import Contents from '../Components/Contents';
 import Biography from '../Components/Biography';
 
-function Home() {
+export default function Home() {
   return (
     <div className="home">
       <MainArt />
@@ -13,5 +13,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

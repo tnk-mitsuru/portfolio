@@ -1,0 +1,16 @@
+.twitterAccount {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    & span {
+        display: block;
+        line-height: 1;
+    }
+    & a {
+        display: block;
+    }
+    & img{
+        width: 24px;
+        filter: sepia(40%);
+    }
+}

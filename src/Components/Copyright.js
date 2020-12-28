@@ -1,10 +1,11 @@
 
+import styles from '../styles/copyright.module.css';
 
 function Copyright() {
   return (
-    <div className="mainBlockMargin">
+    <div className={`mainBlockMargin ${styles.copyright}`}>
       <footer>
-        <p>&copy; 2020 MITSURU TANAKA</p>
+        <small className="textSub"><span className={styles.mark}>&copy;</span><span>2020 MITSURU TANAKA</span></small>
       </footer>
     </div>
   );

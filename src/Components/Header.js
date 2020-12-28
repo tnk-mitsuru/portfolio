@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import componentStyles from '../styles/header.module.css';
+import styles from '../styles/header.module.css';
 
 export default function Header() {
   return (
-    <div className={componentStyles.header}>
+    <div className={styles.header}>
       <h1><Link to="/">Mitsuru's Art</Link></h1>
       <nav>
         <ul>

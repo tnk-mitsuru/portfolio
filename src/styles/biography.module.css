@@ -1,0 +1,12 @@
+.biography {
+    & table {
+        font-size: 1.5rem;
+        & th,& td {
+            padding: 4px 8px;
+            vertical-align: middle;
+        }
+        & th {
+            font-weight: normal;
+        }
+    }
+}

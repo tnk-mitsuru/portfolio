@@ -1,5 +1,36 @@
 .contents {
-   & section {
-        margin-bottom: 16px;
+    max-width: 1000px;
+    & .webDesign,& .conceptArt {
+        position: relative;
+        margin-bottom: 24px;
+        & .contntArt {
+            height: 100px;
+            filter: blur(1px) grayscale(0.7);
+        }
+        &:hover .contntArt {
+            filter: blur(0) grayscale(0);
+        }
+        & .headingWrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100px;
+        }
+        & h2 {
+            font-size: 3rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,1);
+            z-index: 10;
+        }
+    }
+    & .webDesign .contntArt {
+        background: url(../images/bannerWebDesign.jpg) no-repeat 0%/cover;
+    }
+    & .conceptArt .contntArt {
+        background: url(../images/bannerConceptArt.jpg) no-repeat 0%/cover;
     }
 }

@@ -1,25 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
-import Home from './Pages/Home';
-import WebDesign from './Pages/WebDesign';
-import ConceptArt from './Pages/ConceptArt';
-import Copyright from './Components/Copyright';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="pageframe">
-      <BrowserRouter>
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/WebDesign' component={WebDesign}/>
-          <Route exact path='/ConceptArt' component={ConceptArt}/>
-        </Switch>
-      </BrowserRouter>
-      <Copyright />
-    </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

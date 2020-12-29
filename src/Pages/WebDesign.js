@@ -7,7 +7,7 @@ export default function WebDesign() {
   return (
     <div>
       <Header />
-      <h1>ウェブデザイン</h1>
+      <h1 className="headingLarge">ウェブデザイン</h1>
       <Introduction />
       <ProcessWebDesign />
       <Note />

@@ -1,7 +1,7 @@
 function Other() {
     return (
-      <div className="Other">
-        <p>補足説明</p>
+      <div className="mainBlockMargin">
+        <p className="text">補足説明</p>
       </div>
     );
   }

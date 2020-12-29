@@ -8,9 +8,12 @@
     }
     & a {
         display: block;
-    }
-    & img{
-        width: 24px;
-        filter: sepia(40%);
+        & img {
+            width: 24px;
+            filter: grayscale(1);
+        }
+        &:hover img {
+            filter: grayscale(0);
+        }
     }
 }

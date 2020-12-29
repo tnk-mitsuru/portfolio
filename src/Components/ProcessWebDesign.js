@@ -1,9 +1,11 @@
-function ProcessWebDesign() {
+import styles from '../styles/process.module.css'
+  
+export default function ProcessWebDesign() {
     return (
-      <section className="ProcessWebDesign">
-        <h2>作業工程</h2>
-        <p>本サイトのデザインから実装までを例に、簡単にその作業プロセスを紹介します。</p>
-        <table>
+      <section className="mainBlockMargin">
+        <h2 className="headingSmall">作業工程</h2>
+        <p className="text">本サイトのデザインから実装までを例に、簡単にその作業プロセスを紹介します。</p>
+        <table className="tableSimple">
           <tbody>
             <tr>
               <th>UXデザイン</th>
@@ -23,10 +25,7 @@ function ProcessWebDesign() {
             </tr>
           </tbody>
         </table>
-        <p>詳細はこちら</p>
+        <p className="text">詳細はこちら</p>
       </section>
     );
-  }
-  
-  export default ProcessWebDesign;
-  
+  }  

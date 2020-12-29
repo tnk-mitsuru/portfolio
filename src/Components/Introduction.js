@@ -1,7 +1,7 @@
 function Introduction() {
     return (
-      <div className="Introduction">
-        <p>ああああ</p>
+      <div className="mainBlockMargin">
+        <p className="text">ああああ</p>
       </div>
     );
   }

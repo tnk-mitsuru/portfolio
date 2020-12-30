@@ -1,0 +1,41 @@
+.process {
+    & .chart {
+        border: 1px solid #dedede;
+        background: #fafafa;
+        font-size: 1.5rem;
+        padding: 8px;
+        margin-bottom: 16px;
+        & dl {
+            padding: 16px 8px;
+            border-bottom: 1px solid #dedede;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        & dt {
+            margin-bottom: 8px;
+        }
+        & dd {
+            display: flex;
+                & p {
+                    flex: 1;
+                    line-height: 1.4;
+                }
+            &.image {
+                &:after {
+                    content: "";
+                    background: no-repeat;
+                    background-position: 50%;
+                    background-size: cover;
+                    width: 30%;
+                    min-width: 100px;
+                    min-height: 100px;
+                    margin-left: 8px;
+                }
+                &.uxDesign:after {
+                    background-image: url(../images/uxdesign.jpg);
+                }
+            }
+        }
+    }
+}

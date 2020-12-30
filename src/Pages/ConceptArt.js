@@ -1,16 +1,20 @@
 import Header from '../Components/Header';
-import Introduction from '../Components/Introduction';
+import ContentHeading from '../Components/ContentHeading';
 import ProcessConceptArt from '../Components/ProcessConceptArt';
-import Note from '../Components/Note';
 
 export default function ConceptArt() {
   return (
     <div>
       <Header />
-      <h1>コンセプトアート</h1>
-      <Introduction />
+      <ContentHeading heading="Concept Art" contentName="conceptArt"/>
+      <div className="mainBlockMargin">
+        <p className="text">ああああああああ</p>
+      </div>
       <ProcessConceptArt />
-      <Note />
+      <section className="mainBlockMargin">
+        <h2 className="headingSmall">スキル、使用ツール</h2>
+        <p className="text">Photoshop</p>
+      </section>
     </div>
   );
 }

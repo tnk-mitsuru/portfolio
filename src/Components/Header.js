@@ -7,8 +7,8 @@ export default function Header() {
       <nav>
         <ul>
           <li><NavLink to="/">Mitsuru's Art</NavLink></li>
-          <li><NavLink to="/WebDesign" activeClassName={styles.active}>ウェブデザイン</NavLink></li>
-          <li><NavLink to="/ConceptArt" activeClassName={styles.active}>コンセプトアート</NavLink></li>
+          <li><NavLink to="/WebDesign" activeClassName={styles.active}>Web Design</NavLink></li>
+          <li><NavLink to="/ConceptArt" activeClassName={styles.active}>Concept Art</NavLink></li>
         </ul>
       </nav>
     </div>

@@ -1,0 +1,21 @@
+.image {
+    height: 50px;
+    margin-bottom: 16px;
+    background: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    &.webDesign {
+        background-image: url(../images/bannerWebDesign.jpg);
+    }
+    &.conceptArt {
+        background-image: url(../images/bannerConceptArt.jpg);
+    }
+    & h1 {
+        padding-left: 10%;
+        line-height: 50px;
+        font-size: 3rem;
+        letter-spacing: 3px;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    }
+}

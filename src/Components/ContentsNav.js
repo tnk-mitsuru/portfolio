@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import styles from '../styles/contents.module.css';
+import styles from '../styles/contentsNav.module.css';
 
-function Contents() {
+export default function ContentsNav() {
   return (
-    <div className={`mainBlockMargin ${styles.contents}`}>
+    <div className={`mainBlockMargin ${styles.contentsNav}`}>
       <section className={styles.webDesign}>
         <Link to="/WebDesign">
           <div className={styles.contntArt}></div>
@@ -20,4 +20,3 @@ function Contents() {
   );
 }
 
-export default Contents;

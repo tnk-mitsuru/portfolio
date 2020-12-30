@@ -1,15 +1,15 @@
-import MainArt from '../Components/MainArt';
+import CoverArt from '../Components/CoverArt';
 import Profile from '../Components/Profile';
-import Contents from '../Components/Contents';
+import ContentsNav from '../Components/ContentsNav';
 import OtherSkill from '../Components/OtherSkill';
 import Biography from '../Components/Biography';
 
 export default function Home() {
   return (
     <div className="home">
-      <MainArt />
+      <CoverArt />
       <Profile />
-      <Contents />
+      <ContentsNav />
       <OtherSkill />
       <Biography />
     </div>

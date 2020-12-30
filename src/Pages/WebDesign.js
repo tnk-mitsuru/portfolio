@@ -1,16 +1,20 @@
 import Header from '../Components/Header';
-import Introduction from '../Components/Introduction';
+import ContentHeading from '../Components/ContentHeading';
 import ProcessWebDesign from '../Components/ProcessWebDesign';
-import Note from '../Components/Note';
 
 export default function WebDesign() {
   return (
     <div>
       <Header />
-      <h1 className="headingLarge">ウェブデザイン</h1>
-      <Introduction />
+      <ContentHeading heading="Web Design" contentName="webDesign"/>
+      <div className="mainBlockMargin">
+        <p className="text">企画の方向性やイメージなどから、UIUXデザイン、ビジュアルデザインまでやっています。<br />また、プロダクション工程として、フロントエンドの実装（html、css、簡単なjs）も行います。</p>
+      </div>
       <ProcessWebDesign />
-      <Note />
+      <section className="mainBlockMargin">
+        <h2 className="headingSmall">スキル、使用ツール</h2>
+        <p className="text">Photoshop, html, PostCSS, React, VSCode</p>
+      </section>
     </div>
   );
 }

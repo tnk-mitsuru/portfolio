@@ -8,12 +8,12 @@ export default function WebDesign() {
       <Header />
       <ContentHeading heading="Web Design" contentName="webDesign"/>
       <div className="mainBlockMargin">
-        <p className="text">企画の方向性やイメージなどから、UIUXデザイン、ビジュアルデザインまでやっています。<br />また、プロダクション工程として、フロントエンドの実装（html、css、簡単なjs）も行います。</p>
+        <p className="text">企画の方向性やイメージなどにもとづいて、UIUXデザイン、ビジュアルデザインをしています。<br />また、プロダクション工程として、フロントエンドの実装（html、css、簡単なjavascript）も行います。</p>
       </div>
       <ProcessWebDesign />
       <section className="mainBlockMargin">
         <h2 className="headingSmall">スキル、使用ツール</h2>
-        <p className="text">Photoshop, html, PostCSS, React, VSCode</p>
+        <p className="text">Photoshop, Sketch, Figma, Prott, html5, Sass, PostCSS, ejs, React, VSCode</p>
       </section>
     </div>
   );

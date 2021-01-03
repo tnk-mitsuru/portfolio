@@ -1,13 +1,10 @@
-.twitterAccount {
+.name {
     display: flex;
-    align-items: center;
-    margin-top: 16px;
-    & span {
-        display: block;
-        line-height: 1;
-    }
+}
+.twitterAccount {
+    margin-left: 16px;
     & a {
-        display: block;
+        display: inline-block;
         & img {
             width: 24px;
             filter: grayscale(1);

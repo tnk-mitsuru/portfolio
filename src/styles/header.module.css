@@ -1,20 +1,24 @@
 .header {
     margin: 0 auto;
     max-width: 1000px;
-    & ul {
+    & nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 16px;
+    }
+    & ul:last-child {
         display: flex;
         & li {
-            & a {
-                display: block;
-                padding: 12px 8px;
-                font-size: 1.5rem;
-                &:first-child {
-                    padding-left: 16px;
-                }
-                &.active {
-                    color: black;
-                }
-            }
+            padding-left: 16px;
+        }
+    }
+    & a {
+        opacity: 0.8;
+        &.active {
+            color: black;
+        }
+        &:hover {
+            opacity: 1;
         }
     }
 }

@@ -2,7 +2,6 @@
     & .chart {
         border: 1px solid #dedede;
         background: #fafafa;
-        font-size: 1.5rem;
         padding: 8px;
         margin-bottom: 16px;
         & dl {
@@ -36,6 +35,12 @@
                     background-image: url(../images/uxdesign.jpg);
                 }
             }
+        }
+    }
+    & .productionTime {
+        padding: 4px 16px;
+        & li {
+            margin-bottom: 4px;
         }
     }
 }

@@ -1,12 +1,13 @@
 /* page */
 html {
-    font-size: 10px;
+    font-size: 15px;
 }
 body {
-    background-color: rgb(245, 240, 238);
+    background-color: #F2EAE6;
+    color: #474544;
 }
 a {
-    color: rgb(19, 79, 158);
+    color: #3A5E91;
 }
 
 /* margin */
@@ -17,18 +18,14 @@ a {
 }
 
 /* heading */
-.headingLarge {
-    font-size: 2.2rem;
-    margin-bottom: 8px;
-}
 .headingSmall {
-    font-size: 1.8rem;
+    font-size: 20px;
     margin-bottom: 8px;
+    color: #706965;
 }
 /* text */
 .text {
     margin-bottom: 4px;
-    font-size: 1.5rem;
     line-height: 1.6;
 }
 .textSub {
@@ -38,7 +35,6 @@ a {
 }
 /* table */
 .tableSimple {
-    font-size: 1.5rem;
     & th,& td {
         padding: 4px 8px;
         vertical-align: middle;

@@ -6,7 +6,9 @@ export default function Header() {
     <div className={styles.header}>
       <nav>
         <ul>
-          <li><NavLink to="/">Mitsuru's Art</NavLink></li>
+          <li><NavLink exact to="/" activeClassName={styles.active}>Home</NavLink></li>
+        </ul>
+        <ul>
           <li><NavLink to="/WebDesign" activeClassName={styles.active}>Web Design</NavLink></li>
           <li><NavLink to="/ConceptArt" activeClassName={styles.active}>Concept Art</NavLink></li>
         </ul>

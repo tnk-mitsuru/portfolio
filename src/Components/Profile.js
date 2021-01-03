@@ -5,16 +5,17 @@ function Profile() {
   return (
     <div className="mainBlockMargin">
       <section>
-        <h2 className="headingSmall">みつる</h2>
+        <div className={styles.name}>
+          <h2 className="headingSmall">みつる</h2>
+          <div className={`text ${styles.twitterAccount}`}>
+            <a href="https://twitter.com/artist_mitsuru" target="_blank" rel="noreferrer">
+              <img src={twitterIcon} alt="twitterアカウント" />
+            </a>
+          </div>
+        </div>
         <p className="text">
-          Webデザイナー、コンセプトアーティスト。<br/>
-          ポートフォリオとして、成果物や思考プロセスを掲載しています。本サイトも自分でデザイン、実装しています。
-        </p>
-        <p className={`text ${styles.twitterAccount}`}>
-          <span>CONTACT：</span>
-          <a href="https://twitter.com/artist_mitsuru" target="_blank" rel="noreferrer">
-            <img src={twitterIcon} alt="twitterアカウント" />
-          </a>
+          Webデザイナー。コンセプトアートも描いています。<br/>
+          ポートフォリオとして、制作物や思考プロセスを掲載しています。本サイトも自分でデザイン、実装しています。
         </p>
       </section>
     </div>

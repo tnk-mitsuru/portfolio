@@ -3,14 +3,17 @@ html {
     font-size: 15px;
 }
 body {
-    background-color: #F2EAE6;
-    color: #474544;
+    background-color: var(--assortColor);
+    color: var(--assortColor);
 }
 a {
     color: #3A5E91;
 }
 
 /* margin */
+.mainBlock {
+    background-color: var(--baseColor);
+}
 .mainBlockMargin {
     margin: 0 auto;
     padding: 0  16px 32px 16px;
@@ -27,11 +30,6 @@ a {
 .text {
     margin-bottom: 4px;
     line-height: 1.6;
-}
-.textSub {
-    margin-bottom: 4px;
-    font-size: 1.3rem;
-    line-height: 1.4;
 }
 /* table */
 .tableSimple {

@@ -1,12 +1,14 @@
 .copyright {
     display: flex;
     justify-content: center;
-    margin-top: 16px;
+    background: #474544;
+    margin: 8px 0;
     & small {
         display: flex;
         align-items: center;
-        color: #706965;
+        color: #F2EAE6;
         font-size: 12px;
+        opacity: 0.7;
         & span {
             display: inline-block;
         }

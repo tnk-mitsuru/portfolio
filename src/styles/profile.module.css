@@ -1,12 +1,19 @@
 .name {
     display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    & h2 {
+        font-size: 20px;
+        color: #706965;
+        line-height: 1;
+    }
 }
 .twitterAccount {
     margin-left: 16px;
     & a {
         display: inline-block;
         & img {
-            width: 24px;
+            width: 22px;
             filter: grayscale(1);
         }
         &:hover img {

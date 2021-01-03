@@ -1,4 +1,7 @@
+@import "./variable";
+
 .coverArt {
+    background-color: var(--baseColor);
     padding-bottom: 16px;
     & .image {
         background: url(../images/mainArt.jpg) no-repeat 50%/cover;

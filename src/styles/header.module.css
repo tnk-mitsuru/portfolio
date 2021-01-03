@@ -1,10 +1,11 @@
 .header {
-    margin: 0 auto;
-    max-width: 1000px;
+    background: #474544;
     & nav {
         display: flex;
         justify-content: space-between;
         padding: 12px 16px;
+        margin: 0 auto;
+        max-width: 1000px;
     }
     & ul:last-child {
         display: flex;
@@ -13,9 +14,11 @@
         }
     }
     & a {
-        opacity: 0.8;
+        color: #F2EAE6;
+        opacity: 0.7;
+        padding-bottom: 2px;
         &.active {
-            color: black;
+            border-bottom: 2px solid #F2EAE6;
         }
         &:hover {
             opacity: 1;

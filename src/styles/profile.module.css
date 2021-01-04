@@ -1,19 +1,18 @@
+@import "./variable";
+
 .name {
-    display: flex;
-    align-items: center;
     margin-bottom: 8px;
     & h2 {
-        font-size: 20px;
-        color: #706965;
+        font-size: var(--headingH2);
         line-height: 1;
     }
 }
-.twitterAccount {
-    margin-left: 16px;
+.snsAccount {
+    margin: 16px;
     & a {
         display: inline-block;
         & img {
-            width: 22px;
+            width: 30px;
             filter: grayscale(1);
         }
         &:hover img {

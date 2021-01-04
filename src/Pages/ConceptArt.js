@@ -15,7 +15,7 @@ export default function ConceptArt() {
       <ProcessConceptArt />
       <div className="mainBlock">
         <section className="mainBlockMargin">
-          <h2 className="headingSmall">スキル、使用ツール</h2>
+          <h2 className="headingH2">スキル、使用ツール</h2>
           <p className="text">Photoshop, CLIP STUDIO</p>
         </section>
       </div>

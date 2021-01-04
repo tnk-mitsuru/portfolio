@@ -1,0 +1,10 @@
+.sns {
+    display: flex;
+    & .account {
+        padding-right: 16px;
+        & img {
+            display: inline-block;
+            padding-right: 4px;
+        }
+    }
+}

@@ -1,8 +1,11 @@
+@import "./variable";
+
 .contentHeading {
+    position: relative;
     background-color: var(--baseColor);
+    padding-bottom: 16px;
     & .image {
         height: 100px;
-        margin-bottom: 16px;
         background: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -13,11 +16,22 @@
             background-image: url(../images/bannerConceptArt.jpg);
         }
     }
-    & h1 {
-        padding: 0 16px 16px 16px;
-        margin: 0 auto;
-        max-width: 1000px;
-        font-size: 28px;
-
+    & .heading {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100px;
+        width: 100%;
+        background-color: rgba(39, 61, 74,0.5);
+        z-index: 10;
+        & h1 {
+            line-height: 100px;
+            margin: 0 auto;
+            padding-left: 16px;
+            max-width: var(--columnSpace);
+            font-size: var(--headingH1);
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,1);
+        }
     }
 }

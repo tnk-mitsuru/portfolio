@@ -1,4 +1,9 @@
 :root {
     --baseColor: #F2EAE6;
     --assortColor: #474544;
+    --accentColor: #1A2931;
+    --headingH1: 28px;
+    --headingH2: 18px;
+    --columnSpace: 800px;
+    --opacity: 0.7;
 }

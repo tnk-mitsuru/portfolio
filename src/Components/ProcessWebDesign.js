@@ -4,7 +4,7 @@ export default function ProcessWebDesign() {
     return (
       <div className="mainBlock">
         <section className={`mainBlockMargin ${styles.process}`}>
-          <h2 className="headingSmall">作業工程</h2>
+          <h2 className="headingH2">作業工程</h2>
           <p className="text">本サイトのデザインから実装までを例に、簡単にそのプロセスを紹介します。</p>
           <div className={styles.chart}>
             <dl>

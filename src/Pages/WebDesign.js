@@ -15,7 +15,7 @@ export default function WebDesign() {
       <ProcessWebDesign />
       <div className="mainBlock">
         <section className="mainBlockMargin">
-          <h2 className="headingSmall">スキル、使用ツール</h2>
+          <h2 className="headingH2">スキル、使用ツール</h2>
           <p className="text">Photoshop, Sketch, Figma, Prott, html5, Sass, PostCSS, ejs, React, VSCode</p>
         </section>
       </div>

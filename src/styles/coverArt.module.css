@@ -7,9 +7,10 @@
         background: url(../images/mainArt.jpg) no-repeat 50%/cover;
         height: 250px;
         & h1 {
-            padding: 3% 0 0 5%;
-            font-size: 2.6rem;
-            letter-spacing: 3px;
+            max-width: var(--columnSpace);
+            margin: 0 auto;
+            padding: 190px 0 0 16px;
+            font-size: var(--headingH1);
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0,0,0,1);
         }

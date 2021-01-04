@@ -4,6 +4,7 @@ import Profile from '../Components/Profile';
 import ContentsNav from '../Components/ContentsNav';
 import OtherSkill from '../Components/OtherSkill';
 import Biography from '../Components/Biography';
+import Sns from '../Components/Sns';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ContentsNav />
       <OtherSkill />
       <Biography />
+      <Sns />
     </div>
   );
 }

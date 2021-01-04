@@ -4,7 +4,7 @@ function ProcessWebDesign() {
     return (
       <div className="mainBlock">
         <section className={`mainBlockMargin ${styles.process}`}>
-          <h2 className="headingSmall">作業工程</h2>
+          <h2 className="headingH2">作業工程</h2>
           <p className="text">本サイトのトップページに使っているカバー画像を例に、簡単にその作業プロセスを紹介します。</p>
           <div className={styles.chart}>
             <dl>

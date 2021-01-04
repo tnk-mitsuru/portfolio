@@ -1,5 +1,5 @@
 .contentsNav {
-    max-width: 1000px;
+    max-width: var(--columnSpace);
     & .webDesign,& .conceptArt {
         position: relative;
         margin-bottom: 24px;
@@ -10,7 +10,7 @@
         &:hover .contntArt {
             filter: blur(0) grayscale(0);
         }
-        & .headingWrapper {
+        & .heading {
             position: absolute;
             top: 0;
             left: 0;
@@ -21,7 +21,7 @@
             height: 100px;
         }
         & h2 {
-            font-size: 2rem;
+            font-size: var(--headingH1);
             letter-spacing: 3px;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0,0,0,1);
@@ -29,7 +29,7 @@
             transition: font-size 0.1s 0s ease;
         }
         &:hover h2 {
-            font-size: 2.5rem;
+            font-size: 32px;
         }
     }
     & .webDesign .contntArt {

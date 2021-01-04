@@ -8,13 +8,13 @@ export default function ContentsNav() {
         <section className={styles.webDesign}>
           <Link to="/WebDesign">
             <div className={styles.contntArt}></div>
-            <div className={styles.headingWrapper}><h2>Web Design</h2></div>
+            <div className={styles.heading}><h2>Web Design</h2></div>
           </Link>
         </section>
         <section className={styles.conceptArt}>
           <Link to="/ConceptArt">
             <div className={styles.contntArt}></div>
-            <div className={styles.headingWrapper}><h2>Concept Art</h2></div>
+            <div className={styles.heading}><h2>Concept Art</h2></div>
           </Link>
         </section>
       </div>

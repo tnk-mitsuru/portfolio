@@ -1,11 +1,10 @@
-import styles from '../styles/biography.module.css'
 
 export default function Biography() {
   return (
     <div className="mainBlock">
-      <div className={`mainBlockMargin ${styles.biography}`}>
+      <div className="mainBlockMargin">
         <section>
-          <h2 className="headingSmall">略歴</h2>
+          <h2 className="headingH2">略歴</h2>
           <table className="tableSimple">
             <tbody>
               <tr><th>2008 - 2010</th><td>東京大学大学院 地球惑星科学専攻</td></tr>

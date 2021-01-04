@@ -3,7 +3,7 @@ html {
     font-size: 15px;
 }
 body {
-    background-color: var(--assortColor);
+    background-color: var(--accentColor);
     color: var(--assortColor);
 }
 a {
@@ -17,14 +17,13 @@ a {
 .mainBlockMargin {
     margin: 0 auto;
     padding: 0  16px 32px 16px;
-    max-width: 1000px;
+    max-width: var(--columnSpace);
 }
 
 /* heading */
-.headingSmall {
-    font-size: 20px;
+.headingH2 {
+    font-size: var(--headingH2);
     margin-bottom: 8px;
-    color: #706965;
 }
 /* text */
 .text {

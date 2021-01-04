@@ -1,5 +1,4 @@
 import styles from '../styles/profile.module.css'
-import twitterIcon from '../images/twitterIcon.png'
 
 function Profile() {
   return (
@@ -8,11 +7,6 @@ function Profile() {
         <section>
           <div className={styles.name}>
             <h2>みつる</h2>
-            <div className={`text ${styles.twitterAccount}`}>
-              <a href="https://twitter.com/artist_mitsuru" target="_blank" rel="noreferrer">
-                <img src={twitterIcon} alt="twitterアカウント" />
-              </a>
-            </div>
           </div>
           <p className="text">
             Webデザイナー。コンセプトアートも描いています。<br/>

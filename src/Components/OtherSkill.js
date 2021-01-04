@@ -4,7 +4,7 @@ export default function OtherSkill() {
     <div className="mainBlock">
       <div className="mainBlockMargin">
         <section>
-          <h2 className="headingSmall">その他スキル</h2>
+          <h2 className="headingH2">その他スキル</h2>
           <table className="tableSimple">
             <tbody>
               <tr><th>認定心理士</th><td>自分の健康管理のため、また、デザインやアートの根本原理を学ぶため、2018年に日本心理学会 認定心理士の資格を取得しました。</td></tr>

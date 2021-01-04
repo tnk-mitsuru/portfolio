@@ -1,14 +1,15 @@
+@import "./variable";
+
 .copyright {
     display: flex;
     justify-content: center;
-    background: #474544;
     margin: 8px 0;
     & small {
         display: flex;
         align-items: center;
-        color: #F2EAE6;
+        color: var(--baseColor);
         font-size: 12px;
-        opacity: 0.7;
+        opacity: var(--opacity);
         & span {
             display: inline-block;
         }

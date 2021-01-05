@@ -13,15 +13,15 @@ export default function ProcessWebDesign() {
             </dl>
             <dl>
               <dt>UXデザイン</dt>
-              <dd className={`${styles.image} ${styles.uxDesign}`}><p>Webサイトのターゲット、ユーザーゴール、ビジネスゴール、データなどから、<br />ユーザーが体験する一連の動作や感情、思考を整理します。</p></dd>
+              <dd className={`${styles.image} ${styles.uxDesign}`}><p>Webサイトのターゲット、ゴール、データなどから、<br />ユーザーが体験する一連の動作や感情、思考を整理します。</p></dd>
             </dl>
             <dl>
               <dt>UIデザイン</dt>
-              <dd><p>UXを実現するために必要な要件を抽出し、ワイヤーフレームを作っていきます。<br />情報に優先度をつけ、学習コストが低くなるように設計します。</p></dd>
+              <dd className={`${styles.image} ${styles.wireframe}`}><p>UXを実現するための要素を並べて、ワイヤーフレームを作っていきます。<br />情報に優先度をつけ、学習コストが低くなるように設計します。</p></dd>
             </dl>
             <dl>
               <dt>ビジュアルデザイン</dt>
-              <dd><p>以上の設計をもとに、カラースキームやタイポグラフィなどのガイドを作り、色をあて、画像やアイコンを配置していきます。<br />実装前の最終アウトプットになります。</p></dd>
+              <dd className={`${styles.image} ${styles.colorScheme}`}><p>以上の設計をもとに、配色やタイポグラフィなどのガイドを作り、見た目としての完成形を作っていきます。</p></dd>
             </dl>
             <dl>
               <dt>コーディング</dt>

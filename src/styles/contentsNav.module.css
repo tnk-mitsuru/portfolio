@@ -21,8 +21,9 @@
             height: 100px;
         }
         & h2 {
+            letter-spacing: 2px;
             font-size: var(--headingH1);
-            letter-spacing: 3px;
+            font-weight: lighter;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0,0,0,1);
             z-index: 10;

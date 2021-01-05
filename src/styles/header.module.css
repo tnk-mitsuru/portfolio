@@ -13,7 +13,7 @@
         }
     }
     & a {
-        color: #F2EAE6;
+        color: var(--baseColor);
         opacity: var(--opacity);
         padding-bottom: 2px;
         &.active {

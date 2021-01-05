@@ -6,6 +6,7 @@ function Profile() {
       <div className="mainBlockMargin">
         <section>
           <div className={styles.name}>
+            <div className={styles.icon}></div>
             <h2>みつる</h2>
           </div>
           <p className="text">

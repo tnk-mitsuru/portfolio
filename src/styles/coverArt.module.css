@@ -1,20 +1,15 @@
-@import "./variable";
-
 .coverArt {
     position: relative;
     background-color: var(--baseColor);
     padding-bottom: 16px;
     & .heading {
         position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-400px);
+        left: 5%;
+        bottom: 32px;
         z-index: 10;
         & h1 {
-            padding: 190px 0 0 16px;
-            font-size: var(--headingH1);
-            color: #fff;
-            text-shadow: 2px 2px 4px rgba(0,0,0,1);
+            margin: 0 auto;
+            max-width: var(--columnSpace);
         }
     }
     & .slideContainer {

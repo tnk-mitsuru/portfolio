@@ -1,7 +1,14 @@
-@import "./variable";
-
 .name {
+    display: flex;
+    align-items: center;
     margin-bottom: 8px;
+    & .icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 8px;
+        background: url(../images/profileIcon.png) no-repeat 50%/cover;
+        border-radius: 50px;
+    } 
     & h2 {
         font-size: var(--headingH2);
         line-height: 1;

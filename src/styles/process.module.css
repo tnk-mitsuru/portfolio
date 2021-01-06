@@ -4,42 +4,36 @@
         background: #fafafa;
         padding: 8px;
         margin-bottom: 16px;
-        & dl {
+        & li {
+            display: flex;
             padding: 16px 8px;
             border-bottom: 1px solid #dedede;
             &:last-child {
                 border-bottom: none;
             }
+            & .image {
+                margin-left: 12px;
+                & img {
+                    max-width: 200px;
+                    margin-bottom: 4px;
+                }
+            }
+            & figcaption {
+                font-size: var(--subText);
+                opacity: var(--opacity);
+            }
         }
-        & dt {
-            margin-bottom: 8px;
-        }
-        & dd {
-            display: flex;
-                & p {
-                    flex: 1;
-                    line-height: 1.4;
-                }
-            &.image {
-                &:after {
-                    content: "";
-                    background: no-repeat;
-                    background-position: 50%;
-                    background-size: contain;
-                    width: 30%;
-                    min-width: 100px;
-                    min-height: 100px;
-                    margin-left: 8px;
-                }
-                &.uxDesign:after {
-                    background-image: url(../images/uxdesign.jpg);
-                }
-                &.wireframe:after {
-                    background-image: url(../images/wireframe.png);
-                }
-                &.colorScheme:after {
-                    background-image: url(../images/colorScheme.png);
-                }
+        & dl {
+            flex: 1;
+            & dt {
+                margin-bottom: 8px;
+            }
+            & dd {
+                line-height: 1.4;
+                    & img {
+                        max-width: 250px;
+                        margin: 12px 0 4px 0;
+                    }
             }
         }
     }

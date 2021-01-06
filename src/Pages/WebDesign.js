@@ -9,7 +9,7 @@ export default function WebDesign() {
       <ContentHeading heading="Web Design" contentName="webDesign"/>
       <div className="mainBlock">
         <div className="mainBlockMargin">
-          <p className="text">企画の方向性やイメージなどにもとづいて、UIUXデザイン、ビジュアルデザインをします。<br />必要に応じて、フロントエンドの実装（html、css、簡単なjavascript）も行います。</p>
+          <p className="text">企画の方向性やイメージなどにもとづいて、UIUXデザイン、ビジュアルデザインをします。<br />必要に応じて、フロントエンドの実装（html、css、簡単なjavascript）もします。</p>
         </div>
       </div>
       <ProcessWebDesign />

@@ -6,7 +6,7 @@
         display: flex;
         align-items: center;
         color: var(--baseColor);
-        font-size: 12px;
+        font-size: var(--subText);
         opacity: var(--opacity);
         & span {
             display: inline-block;

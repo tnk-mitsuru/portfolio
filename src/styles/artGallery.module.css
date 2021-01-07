@@ -1,0 +1,11 @@
+.artGallery {
+    & ul {
+        & li {float: left;}
+
+    &:after {
+        clear: both;
+        display: block;
+        content:"";
+    }
+    }
+}

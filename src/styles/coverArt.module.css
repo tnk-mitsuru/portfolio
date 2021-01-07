@@ -4,25 +4,28 @@
     padding-bottom: 16px;
     & .heading {
         position: absolute;
-        left: 5%;
+        right: 5%;
         bottom: 32px;
         z-index: 10;
         & h1 {
             margin: 0 auto;
             max-width: var(--columnSpace);
+            & img {
+                width: 150px;
+            }
         }
     }
     & .slideContainer {
         & .image1 {
-            background: url(../images/coverArt_1.jpg) no-repeat 50%/cover;
+            background: url(../images/conceptArt_relationship.jpg) no-repeat 50%/cover;
             height: 250px;
         }
         & .image2 {
-            background: url(../images/coverArt_2.jpg) no-repeat 50%/cover;
+            background: url(../images/conceptArt_city.jpg) no-repeat 50%/cover;
             height: 250px;
         }
         & .image3 {
-            background: url(../images/coverArt_3.jpg) no-repeat 50%/cover;
+            background: url(../images/fanArt_earthsea.jpg) no-repeat 50%/cover;
             height: 250px;
         }
     }

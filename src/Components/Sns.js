@@ -1,7 +1,7 @@
-import styles from '../styles/sns.module.css'
-import twitter from '../images/icon_twitter.svg'
-import note from '../images/icon_note.svg'
-import github from '../images/icon_github.svg'
+import styles from '../styles/sns.module.css';
+import twitter from '../images/icon_twitter.svg';
+import note from '../images/icon_note.svg';
+import github from '../images/icon_github.svg';
 
 export default function Sns() {
   return (

@@ -34,9 +34,9 @@
         }
     }
     & .webDesign .contntArt {
-        background: url(../images/bannerWebDesign.jpg) no-repeat 0%/cover;
+        background: url(../images/banner_webDesign.jpg) no-repeat 0%/cover;
     }
     & .conceptArt .contntArt {
-        background: url(../images/bannerConceptArt.jpg) no-repeat 0%/cover;
+        background: url(../images/banner_conceptArt.jpg) no-repeat 0%/cover;
     }
 }

@@ -8,10 +8,10 @@
         background-position: 50%;
         background-size: cover;
         &.webDesign {
-            background-image: url(../images/bannerWebDesign.jpg);
+            background-image: url(../images/banner_webDesign.jpg);
         }
         &.conceptArt {
-            background-image: url(../images/bannerConceptArt.jpg);
+            background-image: url(../images/banner_conceptArt.jpg);
         }
     }
     & .heading {

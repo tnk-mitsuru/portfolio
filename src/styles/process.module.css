@@ -4,36 +4,36 @@
         background: #fafafa;
         padding: 8px;
         margin-bottom: 16px;
-        & li {
-            display: flex;
-            padding: 16px 8px;
+        & dl {
+            padding: 12px 8px;
             border-bottom: 1px solid #dedede;
-            &:last-child {
+            &.noBorder {
                 border-bottom: none;
             }
-            & .image {
-                margin-left: 12px;
-                & img {
-                    max-width: 200px;
-                    margin-bottom: 4px;
-                }
-            }
-            & figcaption {
-                font-size: var(--subText);
-                opacity: var(--opacity);
-            }
-        }
-        & dl {
-            flex: 1;
             & dt {
                 margin-bottom: 8px;
             }
             & dd {
                 line-height: 1.4;
-                    & img {
-                        max-width: 250px;
-                        margin: 12px 0 4px 0;
-                    }
+            }
+        }
+        & .imageBox {
+            display: flex;
+        }
+        & .text {
+            flex: 1;
+        }
+        & figure {
+            margin: 8px 0 8px 8px;
+            & img {
+                margin-bottom: 4px;
+                object-fit: contain;
+                max-width: 300px;
+            }
+            & figcaption {
+                text-align: right;
+                font-size: var(--subText);
+                opacity: var(--opacity);
             }
         }
     }
@@ -43,4 +43,10 @@
             margin-bottom: 4px;
         }
     }
+}
+
+@media screen and (max-width:600px){
+figure {
+    display: none;
+}
 }

@@ -8,7 +8,7 @@ import Sns from '../Components/Sns';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div>
       <Header />
       <CoverArt />
       <Profile />

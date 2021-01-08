@@ -6,7 +6,7 @@ import Copyright from './Components/Copyright';
 
 function App() {
   return (
-    <div className="pageframe">
+    <div>
       <BrowserRouter>
         <Switch>
           <Route exact path='/' component={Home}/>

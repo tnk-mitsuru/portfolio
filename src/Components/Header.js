@@ -9,8 +9,8 @@ export default function Header() {
           <li><NavLink exact to="/">Home</NavLink></li>
         </ul>
         <ul>
-          <li><NavLink to="/WebDesign">Web Design</NavLink></li>
-          <li><NavLink to="/ConceptArt">Concept Art</NavLink></li>
+          <li><NavLink to="/webdesign">Web Design</NavLink></li>
+          <li><NavLink to="/conceptart">Concept Art</NavLink></li>
         </ul>
       </nav>
     </div>

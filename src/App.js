@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Home from './Pages/Home';
 import WebDesign from './Pages/WebDesign';
 import ConceptArt from './Pages/ConceptArt';
@@ -12,6 +12,9 @@ export default function App() {
           <Route exact path='/' component={Home}/>
           <Route exact path='/WebDesign' component={WebDesign}/>
           <Route exact path='/ConceptArt' component={ConceptArt}/>
+          <Redirect exact from='/WebDesign' to='/WebDesign' />
+          <Redirect exact from='/ConceptArt' to='/ConceptArt' />
+          <Redirect to='/' />
         </Switch>
       </BrowserRouter>
       <Copyright />

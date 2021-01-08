@@ -19,6 +19,7 @@
     "bfj": "^7.0.2",
     "camelcase": "^6.1.0",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
+    "cpx": "^1.5.0",
     "css-loader": "4.3.0",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
@@ -80,7 +81,7 @@
     "build": "npm-run-all build:css build:js",
     "build:css": "postcss src/styles/index.css -o src/index.css",
     "build:js": "node scripts/build.js",
-    "deploy": "mv build docs",
+    "deploy": "cpx \"build/**\" docs",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {

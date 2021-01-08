@@ -59,6 +59,7 @@
     "react-images": "^1.1.7",
     "react-photo-gallery": "^8.0.0",
     "react-refresh": "^0.8.3",
+    "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
     "react-slideshow-image": "^3.4.3",
     "resolve": "1.18.1",

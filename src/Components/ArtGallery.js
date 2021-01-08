@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+// import Carousel, { Modal, ModalGateway } from "react-responsive-carousel";
 
 import art1 from '../images/conceptArt_research.jpg';
 import art2 from '../images/conceptArt_relationship.jpg';

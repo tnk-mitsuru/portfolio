@@ -16,8 +16,6 @@
         color: var(--baseColor);
         opacity: var(--opacity);
         padding-bottom: 2px;
-        &.active {
-        }
         &:hover {
             opacity: 1;
         }

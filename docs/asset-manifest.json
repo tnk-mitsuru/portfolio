@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.5a5389aa.chunk.css",
-    "main.js": "./static/js/main.980c9f89.chunk.js",
-    "main.js.map": "./static/js/main.980c9f89.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.b7fb166a.js",
-    "runtime-main.js.map": "./static/js/runtime-main.b7fb166a.js.map",
+    "main.js": "./static/js/main.31d3d55e.chunk.js",
+    "main.js.map": "./static/js/main.31d3d55e.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3126df72.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3126df72.js.map",
     "static/css/2.b57b7cfd.chunk.css": "./static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.24dc0d07.chunk.js": "./static/js/2.24dc0d07.chunk.js",
-    "static/js/2.24dc0d07.chunk.js.map": "./static/js/2.24dc0d07.chunk.js.map",
-    "static/js/3.516078de.chunk.js": "./static/js/3.516078de.chunk.js",
-    "static/js/3.516078de.chunk.js.map": "./static/js/3.516078de.chunk.js.map",
+    "static/js/2.18ac2c75.chunk.js": "./static/js/2.18ac2c75.chunk.js",
+    "static/js/2.18ac2c75.chunk.js.map": "./static/js/2.18ac2c75.chunk.js.map",
+    "static/js/3.d4daad8a.chunk.js": "./static/js/3.d4daad8a.chunk.js",
+    "static/js/3.d4daad8a.chunk.js.map": "./static/js/3.d4daad8a.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.b57b7cfd.chunk.css.map": "./static/css/2.b57b7cfd.chunk.css.map",
     "static/css/main.5a5389aa.chunk.css.map": "./static/css/main.5a5389aa.chunk.css.map",
-    "static/js/2.24dc0d07.chunk.js.LICENSE.txt": "./static/js/2.24dc0d07.chunk.js.LICENSE.txt",
+    "static/js/2.18ac2c75.chunk.js.LICENSE.txt": "./static/js/2.18ac2c75.chunk.js.LICENSE.txt",
     "static/media/contentHeading.module.css": "./static/media/banner_webDesign.06b98e4e.jpg",
     "static/media/coverArt.module.css": "./static/media/conceptArt_research_forCover.d578789a.jpg",
     "static/media/conceptArt_research.228a3035.jpg": "./static/media/conceptArt_research.228a3035.jpg",
@@ -25,14 +25,13 @@
     "static/media/icon_twitter.646ac98b.svg": "./static/media/icon_twitter.646ac98b.svg",
     "static/media/lough.8cf3d1a3.jpg": "./static/media/lough.8cf3d1a3.jpg",
     "static/media/moodBoard.34be9542.png": "./static/media/moodBoard.34be9542.png",
-    "static/media/ogpImage.ac35a287.jpg": "./static/media/ogpImage.ac35a287.jpg",
     "static/media/titleLogo.42fbec16.png": "./static/media/titleLogo.42fbec16.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7fb166a.js",
+    "static/js/runtime-main.3126df72.js",
     "static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.24dc0d07.chunk.js",
+    "static/js/2.18ac2c75.chunk.js",
     "static/css/main.5a5389aa.chunk.css",
-    "static/js/main.980c9f89.chunk.js"
+    "static/js/main.31d3d55e.chunk.js"
   ]
 }

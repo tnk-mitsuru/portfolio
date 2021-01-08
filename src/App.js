@@ -7,7 +7,7 @@ import Copyright from './Components/Copyright';
 export default function App() {
   return (
     <div>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route exact path='/WebDesign' component={WebDesign}/>

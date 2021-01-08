@@ -4,29 +4,33 @@
     padding-bottom: 16px;
     & .heading {
         position: absolute;
-        right: 5%;
+        left: 0;
+        right: 0;
         bottom: 32px;
+        margin: 0 auto;
+        max-width: var(--columnSpace);
         z-index: 10;
         & h1 {
-            margin: 0 auto;
-            max-width: var(--columnSpace);
-            & img {
-                width: 150px;
-            }
+            display: block;
+            padding-right: 16px;
+            text-align: right;
         }
     }
     & .slideContainer {
-        & .image1 {
-            background: url(../images/conceptArt_relationship.jpg) no-repeat 50%/cover;
+        & .art {
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
             height: 250px;
         }
-        & .image2 {
-            background: url(../images/conceptArt_city.jpg) no-repeat 50%/cover;
-            height: 250px;
+        & .art1 {
+            background-image: url(../images/conceptArt_relationship.jpg);
         }
-        & .image3 {
-            background: url(../images/fanArt_earthsea.jpg) no-repeat 50%/cover;
-            height: 250px;
+        & .art2 {
+            background-image: url(../images/conceptArt_research_forCover.jpg);
+        }
+        & .art3 {
+            background-image: url(../images/conceptArt_city.jpg);
         }
     }
 }

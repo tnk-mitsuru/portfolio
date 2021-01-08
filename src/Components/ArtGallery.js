@@ -3,38 +3,38 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import relationship from '../images/conceptArt_relationship.jpg';
-import city from '../images/conceptArt_city.jpg';
-import letsAdventure from '../images/conceptArt_letsAdventure.jpg';
-import zenitsu from '../images/fanArt_zenitsu.jpg';
-import earthsea from '../images/fanArt_earthsea.jpg';
+import art1 from '../images/conceptArt_research.jpg';
+import art2 from '../images/conceptArt_relationship.jpg';
+import art3 from '../images/conceptArt_city.jpg';
+import art4 from '../images/fanArt_zenitsu.jpg';
+import art5 from '../images/fanArt_earthsea.jpg';
 
 import styles from '../styles/artGallery.module.css';
 
 export default function Sns() {
     const photos = [
         {
-          src: relationship,
+          src: art1,
           width: 1.8,
           height: 1
         },
         {
-          src: letsAdventure,
-          width: 1,
-          height: 1.8
-        },
-        {
-          src: city,
+          src: art2,
           width: 1.8,
           height: 1
         },
         {
-          src: zenitsu,
+          src: art3,
+          width: 1.8,
+          height: 1
+        },
+        {
+          src: art4,
           width: 1,
           height: 1.8
         },
         {
-          src: earthsea,
+          src: art5,
           width: 1.8,
           height: 1
         }

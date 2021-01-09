@@ -1,5 +1,4 @@
 import styles from '../styles/process.module.css';
-import moodBoard from '../images/moodBoard.png';
   
 export default function ProcessWebDesign() {
     return (
@@ -8,7 +7,6 @@ export default function ProcessWebDesign() {
           <h2 className="headingH2">作業工程</h2>
           <p className="text">本サイトのデザインから実装までを例に、簡単にそのプロセスを紹介します。</p>
           <div className={styles.chart}>
-              <div>
                 <dl>
                   <dt>リサーチ</dt>
                   <dd>紙媒体含め、ポートフォリオの一般的なページ構成や要素を、書籍や参考サイトで調べ、UIUXの方向性に目星をつけます。</dd>
@@ -21,9 +19,6 @@ export default function ProcessWebDesign() {
                 <dt>UIデザイン</dt>
                 <dd>UXを実現するための要素に優先度をつけ、画面上に配置していきます。<br />ページ遷移で迷わないように、また、視線移動や操作がシンプルになるように設計します。</dd>
               </dl>
-            </div>
-            <div className={styles.imageBox}>
-              <div className={styles.text}>
                 <dl>
                   <dt>ビジュアルデザイン</dt>
                   <dd>以上の設計をもとに、配色やタイポグラフィなどのガイドを作り、見た目としての完成形を作っていきます。
@@ -33,12 +28,6 @@ export default function ProcessWebDesign() {
                   <dt>コーディング</dt>
                   <dd>サイトの規模やスケジュール、協業体制に応じて技術選定し、ワイヤーフレームやビジュアルデザインをもとに、<br />HTML、CSSを書いていきます。</dd>
                 </dl>
-              </div>
-              <figure>
-                <img src={moodBoard} alt="ムードボード"/>
-                <figcaption>ムードボード</figcaption>
-              </figure>
-            </div>
           </div>
           <p className="text">制作期間は3週間ほどでした。今回は、実装しながらビジュアルデザインを検討したので、厳密には分割できませんが、ビジュアルデザインまで1週間、コーディングに2週間ほどかかりました。</p>
           <p className="text">プロセスの詳細や、各工程の具体的なアウトプット、工夫したことなどは<a href="https://">note</a>にまとめています。</p>

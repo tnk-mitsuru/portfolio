@@ -6,13 +6,13 @@ export default function ContentsNav() {
     <div className="mainBlock">
       <div className={`mainBlockMargin ${styles.contentsNav}`}>
         <section className={styles.webDesign}>
-          <Link to="/webdesign">
+          <Link to="/WebDesign">
             <div className={styles.contntArt}></div>
             <div className={styles.heading}><h2>Web Design</h2></div>
           </Link>
         </section>
         <section className={styles.conceptArt}>
-          <Link to="/conceptart">
+          <Link to="/ConceptArt">
             <div className={styles.contntArt}></div>
             <div className={styles.heading}><h2>Concept Art</h2></div>
           </Link>

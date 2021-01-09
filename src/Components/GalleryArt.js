@@ -7,12 +7,10 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import art1 from '../images/conceptArt_research.jpg';
 import art2 from '../images/conceptArt_relationship.jpg';
 import art3 from '../images/conceptArt_city.jpg';
-import art4 from '../images/fanArt_zenitsu.jpg';
-import art5 from '../images/fanArt_earthsea.jpg';
+import art4 from '../images/conceptArt_zenitsu.jpg';
+import art5 from '../images/conceptArt_earthsea.jpg';
 
-import styles from '../styles/artGallery.module.css';
-
-export default function Sns() {
+export default function GalleryArt() {
     const photos = [
         {
           src: art1,
@@ -54,7 +52,7 @@ export default function Sns() {
     };
   return (
     <div className="mainBlock">
-      <div className={`mainBlockMargin ${styles.artGallery}`}>
+      <div className="mainBlockMargin">
         <h2 className="headingH2">作品集</h2>
         <Gallery photos={photos} onClick={openLightbox} />
         <ModalGateway>

@@ -5,7 +5,7 @@ function Copyright() {
   return (
     <div className={styles.copyright}>
       <footer>
-        <small className="textSub"><span className={styles.mark}>&copy;</span><span>2020 MITSURU'S ART</span></small>
+        <small className="textSub"><span className={styles.mark}>&copy;</span><span>2021 MITSURU'S ART</span></small>
       </footer>
     </div>
   );

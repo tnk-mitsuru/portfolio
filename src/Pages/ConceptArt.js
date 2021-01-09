@@ -1,7 +1,7 @@
 import Header from '../Components/Header';
 import ContentHeading from '../Components/ContentHeading';
 import ProcessConceptArt from '../Components/ProcessConceptArt';
-import ArtGallery from '../Components/ArtGallery';
+import GalleryArt from '../Components/GalleryArt';
 
 export default function ConceptArt() {
   return (
@@ -13,7 +13,7 @@ export default function ConceptArt() {
           <p className="text">ファンタジーやデフォルメした世界観のコンセプトアートを描いています。</p>
         </div>
       </div>
-      <ArtGallery />
+      <GalleryArt />
       <ProcessConceptArt />
       <div className="mainBlock">
         <section className="mainBlockMargin">

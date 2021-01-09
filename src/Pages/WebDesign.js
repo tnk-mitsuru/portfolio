@@ -1,6 +1,7 @@
 import Header from '../Components/Header';
 import ContentHeading from '../Components/ContentHeading';
 import ProcessWebDesign from '../Components/ProcessWebDesign';
+import GalleryWebDesign from '../Components/GalleryWebDesign';
 
 export default function WebDesign() {
   return (
@@ -12,6 +13,7 @@ export default function WebDesign() {
           <p className="text">企画の方向性やイメージなどにもとづいて、UIUXデザイン、ビジュアルデザインをします。<br />必要に応じて、フロントエンドの実装（html、css、簡単なjavascript）もします。</p>
         </div>
       </div>
+      <GalleryWebDesign />
       <ProcessWebDesign />
       <div className="mainBlock">
         <section className="mainBlockMargin">

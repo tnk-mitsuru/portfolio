@@ -10,8 +10,8 @@ export default function App() {
       <BrowserRouter basename='/portfolio'>
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route exact path='/webdesign' component={WebDesign}/>
-          <Route exact path='/conceptart' component={ConceptArt}/>
+          <Route exact path='/WebDesign' component={WebDesign}/>
+          <Route exact path='/ConceptArt' component={ConceptArt}/>
         </Switch>
       </BrowserRouter>
       <Copyright />

@@ -2,7 +2,6 @@ import React, { useState, useCallback } from "react";
 
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-// import Carousel, { Modal, ModalGateway } from "react-responsive-carousel";
 
 import art1 from '../images/webDesign_wireFrame.png';
 import art2 from '../images/webDesign_titleLogo.png';
@@ -48,7 +47,7 @@ export default function GalleryWebDesign () {
     <div className="mainBlock">
       <div className="mainBlockMargin">
         <h2 className="headingH2">作品集</h2>
-        <Gallery photos={photos} onClick={openLightbox} />
+        <Gallery photos={photos} targetRowHeight={150} onClick={openLightbox} />
         <ModalGateway>
             {viewerIsOpen ? (
             <Modal onClose={closeLightbox}>

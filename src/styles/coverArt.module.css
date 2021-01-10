@@ -24,13 +24,13 @@
             height: 250px;
         }
         & .art1 {
-            background-image: url(../images/conceptArt_relationship.jpg);
+            background-image: url(../images/coverArt_relationship.jpg);
         }
         & .art2 {
-            background-image: url(../images/conceptArt_research_forCover.jpg);
+            background-image: url(../images/coverArt_research.jpg);
         }
         & .art3 {
-            background-image: url(../images/conceptArt_city.jpg);
+            background-image: url(../images/coverArt_city.jpg);
         }
     }
 }

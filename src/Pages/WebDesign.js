@@ -10,7 +10,8 @@ export default function WebDesign() {
       <ContentHeading heading="Web Design" contentName="webDesign"/>
       <div className="mainBlock">
         <div className="mainBlockMargin">
-          <p className="text">企画の方向性やイメージなどにもとづいて、UIUXデザイン、ビジュアルデザインをします。<br />必要に応じて、フロントエンドの実装（html、css、簡単なjavascript）もします。</p>
+          <p className="text">企画の方向性やイメージなどにもとづいて、UIUXデザイン、ビジュアルデザインをします。<br />必要に応じて、フロントエンドの実装（HTML,CSS,簡単なJavaScript）もします。</p>
+          <p className="text">ここでは、本サイトのデザインから実装までを例に、簡単にそのプロセスを紹介します。</p>
         </div>
       </div>
       <GalleryWebDesign />
@@ -18,7 +19,7 @@ export default function WebDesign() {
       <div className="mainBlock">
         <section className="mainBlockMargin">
           <h2 className="headingH2">スキル、使用ツール</h2>
-          <p className="text">Photoshop, Sketch, Figma, Prott, html5, Sass, PostCSS, ejs, React, VSCode</p>
+          <p className="text">Photoshop, Sketch, html5, Sass, PostCSS, ejs, React, VSCode</p>
         </section>
       </div>
     </div>

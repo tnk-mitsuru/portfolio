@@ -46,7 +46,8 @@ export default function GalleryWebDesign () {
   return (
     <div className="mainBlock">
       <div className="mainBlockMargin">
-        <h2 className="headingH2">作品集</h2>
+        <h2 className="headingH2">各プロセスの主なアウトプット</h2>
+        <p className="text"></p>
         <Gallery photos={photos} targetRowHeight={150} onClick={openLightbox} />
         <ModalGateway>
             {viewerIsOpen ? (

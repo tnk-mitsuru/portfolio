@@ -29,7 +29,7 @@ export default function GalleryArt() {
         {
           src: art4,
           width: 1,
-          height: 1.8
+          height: 1.25
         },
         {
           src: art5,

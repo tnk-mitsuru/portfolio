@@ -1,18 +1,26 @@
-.sns {
+.accounts {
     display: flex;
-    & .account {
-        padding: 0 16px 0 0;
+    align-items: center;
+    margin-top: 20px;
+    & li {
+        padding: 0 28px 0 0;
+        & a {
+            display: block;
+            line-height: 24px;
+        }
         & img {
             display: inline-block;
-            padding-right: 4px;
+            width: 29px;
+            margin-right: 14px;
+            border-radius: 4px
         }
     }
 }
 @media screen and (max-width:480px){
-.sns {
+.accounts {
     display: block;
-    & .account {
-        padding: 0 0 8px 0;
+    & li {
+        padding: 0 0 24px 0;
     }
 }
 }

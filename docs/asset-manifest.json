@@ -5,14 +5,14 @@
     "static/js/0.3e89d88a.chunk.js.map": "/portfolio/static/js/0.3e89d88a.chunk.js.map",
     "static/js/1.e61b7ede.chunk.js": "/portfolio/static/js/1.e61b7ede.chunk.js",
     "static/js/1.e61b7ede.chunk.js.map": "/portfolio/static/js/1.e61b7ede.chunk.js.map",
-    "main.css": "/portfolio/static/css/main.ac39e31d.chunk.css",
-    "main.js": "/portfolio/static/js/main.6c3aa88a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6c3aa88a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.55aa2c35.chunk.css",
+    "main.js": "/portfolio/static/js/main.a00d1eb2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a00d1eb2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f015d36e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f015d36e.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/0.81d4c488.chunk.css.map": "/portfolio/static/css/0.81d4c488.chunk.css.map",
-    "static/css/main.ac39e31d.chunk.css.map": "/portfolio/static/css/main.ac39e31d.chunk.css.map",
+    "static/css/main.55aa2c35.chunk.css.map": "/portfolio/static/css/main.55aa2c35.chunk.css.map",
     "static/js/0.3e89d88a.chunk.js.LICENSE.txt": "/portfolio/static/js/0.3e89d88a.chunk.js.LICENSE.txt",
     "static/media/contentsNav.module.css": "/portfolio/static/media/banner_webDesign.16bf06ff.jpg",
     "static/media/conceptArt_city.jpg": "/portfolio/static/media/conceptArt_city.6e01d8cf.jpg",
@@ -22,7 +22,6 @@
     "static/media/conceptArt_research.jpg": "/portfolio/static/media/conceptArt_research.beca09bf.jpg",
     "static/media/conceptArt_zenitsu.jpg": "/portfolio/static/media/conceptArt_zenitsu.d4d45a84.jpg",
     "static/media/coverArt.module.css": "/portfolio/static/media/coverArt_research.ef67b93b.jpg",
-    "static/media/icon_github.svg": "/portfolio/static/media/icon_github.40c4c63c.svg",
     "static/media/icon_note.svg": "/portfolio/static/media/icon_note.e680e2b5.svg",
     "static/media/profile.module.css": "/portfolio/static/media/icon_profile.37da6803.png",
     "static/media/icon_twitter.svg": "/portfolio/static/media/icon_twitter.646ac98b.svg",
@@ -37,7 +36,7 @@
     "static/js/runtime-main.f015d36e.js",
     "static/css/0.81d4c488.chunk.css",
     "static/js/0.3e89d88a.chunk.js",
-    "static/css/main.ac39e31d.chunk.css",
-    "static/js/main.6c3aa88a.chunk.js"
+    "static/css/main.55aa2c35.chunk.css",
+    "static/js/main.a00d1eb2.chunk.js"
   ]
 }

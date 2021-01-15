@@ -1,7 +1,7 @@
 import styles from '../styles/sns.module.css';
 import twitter from '../images/icon_twitter.svg';
 import note from '../images/icon_note.svg';
-import github from '../images/icon_instagram.svg';
+import instagram from '../images/icon_instagram.png';
 
 export default function Sns() {
   return (
@@ -13,11 +13,11 @@ export default function Sns() {
             <li>
                 <a href="https://twitter.com/artist_mitsuru" target="_blank" rel="noreferrer"><img src={twitter} alt="twitterアカウント"/>@artist_mitsuru</a>
             </li>
-            <li className={styles.account}>
+            <li>
                 <a href="https://note.com/artist_mitsuru" target="_blank" rel="noreferrer"><img src={note} alt="noteアカウント"/>@artist_mitsuru</a>
             </li>
-            <li className={styles.account}>
-                <a href="https://www.instagram.com/artist.mitsuru/" target="_blank" rel="noreferrer"><img src={github} alt="Instagramアカウント"/>@tnk-mitsuru</a>
+            <li>
+                <a href="https://www.instagram.com/artist.mitsuru/" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagramアカウント"/>@artist.mitsuru</a>
             </li>
           </ul>
         </section>

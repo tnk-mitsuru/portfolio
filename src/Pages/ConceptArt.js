@@ -2,6 +2,7 @@ import Header from '../Components/Header';
 import ContentHeading from '../Components/ContentHeading';
 import ProcessConceptArt from '../Components/ProcessConceptArt';
 import GalleryArt from '../Components/GalleryArt';
+import GalleryDessin from '../Components/GalleryDessin';
 
 export default function ConceptArt() {
   return (
@@ -14,6 +15,7 @@ export default function ConceptArt() {
         </div>
       </div>
       <GalleryArt />
+      <GalleryDessin />
       <ProcessConceptArt />
       <div className="mainBlock">
         <section className="mainBlockMargin">

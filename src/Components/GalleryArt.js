@@ -3,8 +3,9 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import art7 from '../images/conceptArt_rescue.jpg';
-import art6 from '../images/conceptArt_rescue_parts.jpg';
+import art8 from '../images/conceptArt_rescue.jpg';
+import art7 from '../images/conceptArt_rescue_parts.jpg';
+import art6 from '../images/conceptArt_rescue_town.jpg';
 import art5 from '../images/conceptArt_research.jpg';
 import art4 from '../images/conceptArt_relationship.jpg';
 import art3 from '../images/conceptArt_city.jpg';
@@ -13,6 +14,11 @@ import art1 from '../images/conceptArt_earthsea.jpg';
 
 export default function GalleryArt() {
     const photos = [
+        {
+          src: art8,
+          width: 1.8,
+          height: 1
+        },
         {
           src: art7,
           width: 1.8,

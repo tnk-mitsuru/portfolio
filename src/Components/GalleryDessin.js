@@ -3,24 +3,24 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import art1 from '../images/conceptArt_earth.jpg';
-import art2 from '../images/conceptArt_shoes.jpg';
-import art3 from '../images/conceptArt_bathroom.jpg';
+import art3 from '../images/dessin_egg.jpg';
+import art2 from '../images/dessin_earth.jpg';
+import art1 from '../images/dessin_bathroom.jpg';
 
 export default function GalleryArt() {
     const photos = [
         {
-          src: art1,
+          src: art3,
           width: 1.8,
           height: 1
         },
         {
           src: art2,
-          width: 1,
-          height: 1.08
+          width: 1.8,
+          height: 1
         },
         {
-          src: art3,
+          src: art1,
           width: 2,
           height: 1
         }

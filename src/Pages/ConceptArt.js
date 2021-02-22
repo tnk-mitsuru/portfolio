@@ -11,7 +11,7 @@ export default function ConceptArt() {
       <ContentHeading heading="Concept Art" contentName="conceptArt"/>
       <div className="mainBlock">
         <div className="mainBlockMargin">
-          <p className="text">ファンタジーやデフォルメした世界観のコンセプトアートを描いています。</p>
+          <p className="text">ファンタジーやデフォルメした世界観のコンセプトアートを描いています。<br />ファンアートも描いてます。</p>
         </div>
       </div>
       <GalleryArt />

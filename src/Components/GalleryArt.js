@@ -4,7 +4,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 import art7 from '../images/conceptArt_kiki.jpg';
-import art6 from '../images/conceptArt_kiki_sketch.jpg';
+import art6 from '../images/conceptArt_kiki_process.jpg';
 import art5 from '../images/conceptArt_rescue.jpg';
 import art4 from '../images/conceptArt_rescue_process.jpg';
 import art3 from '../images/conceptArt_research.jpg';

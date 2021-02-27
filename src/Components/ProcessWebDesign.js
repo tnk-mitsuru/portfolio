@@ -29,8 +29,8 @@ export default function ProcessWebDesign() {
           </div>
           <p className="text">制作期間は3週間ほどでした。<br />今回は、プログラミングしながらビジュアルデザインしたので、厳密には分割できませんが、ビジュアルデザインまで1週間、プログラミングに2週間ほどかかりました。</p>
           <p className="text">プロセスの詳細や、各工程の具体的なアウトプット、工夫したことなどは<a href="https://note.com/artist_mitsuru/n/n1efa4f4e7acc" target="_blank" rel="noreferrer">note</a>にまとめています。</p>
-          <p>コードは<a href="https://github.com/tnk-mitsuru/portfolio" target="_blank" rel="noreferrer">GitHub</a>に公開しています。</p>
+          <p>コードは<a href="https://github.com/tnk-mitsuru/portfolio" target="_blank" rel="noreferrer">GitHub</a>に、デバッグの過程は<a href="https://qiita.com/tnk-mitsuru/items/3b8c76fcb51e821e8f1a">Qita</a>に公開しています。</p>
         </section>
       </div>
     );
-  }  
+  }

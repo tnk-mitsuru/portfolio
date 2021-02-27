@@ -6,8 +6,8 @@
     "static/js/1.e61b7ede.chunk.js": "/portfolio/static/js/1.e61b7ede.chunk.js",
     "static/js/1.e61b7ede.chunk.js.map": "/portfolio/static/js/1.e61b7ede.chunk.js.map",
     "main.css": "/portfolio/static/css/main.2adccdb7.chunk.css",
-    "main.js": "/portfolio/static/js/main.c04ae336.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c04ae336.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.0d4fe5dd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0d4fe5dd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f015d36e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f015d36e.js.map",
     "index.html": "/portfolio/index.html",
@@ -20,6 +20,7 @@
     "static/media/conceptArt_kiki_process.jpg": "/portfolio/static/media/conceptArt_kiki_process.2a96040c.jpg",
     "static/media/conceptArt_relationship.jpg": "/portfolio/static/media/conceptArt_relationship.f13b2035.jpg",
     "static/media/conceptArt_relationship_localColor.jpg": "/portfolio/static/media/conceptArt_relationship_localColor.cbe3f58e.jpg",
+    "static/media/conceptArt_relationship_process.jpg": "/portfolio/static/media/conceptArt_relationship_process.efe1f5c7.jpg",
     "static/media/conceptArt_rescue.jpg": "/portfolio/static/media/conceptArt_rescue.51ea8524.jpg",
     "static/media/conceptArt_rescue_process.jpg": "/portfolio/static/media/conceptArt_rescue_process.bb53a432.jpg",
     "static/media/conceptArt_research.jpg": "/portfolio/static/media/conceptArt_research.6454c77a.jpg",
@@ -42,6 +43,6 @@
     "static/css/0.81d4c488.chunk.css",
     "static/js/0.3e89d88a.chunk.js",
     "static/css/main.2adccdb7.chunk.css",
-    "static/js/main.c04ae336.chunk.js"
+    "static/js/main.0d4fe5dd.chunk.js"
   ]
 }

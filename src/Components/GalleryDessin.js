@@ -3,12 +3,18 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
+import art4 from '../images/dessin_misao.jpg';
 import art3 from '../images/dessin_egg.jpg';
 import art2 from '../images/dessin_earth.jpg';
 import art1 from '../images/dessin_bathroom.jpg';
 
 export default function GalleryArt() {
     const photos = [
+        {
+          src: art4,
+          width: 1.8,
+          height: 1
+        },
         {
           src: art3,
           width: 1.8,
@@ -40,7 +46,7 @@ export default function GalleryArt() {
   return (
     <div className="mainBlock">
       <div className="mainBlockMargin">
-        <h2 className="headingH2">静物デッサン</h2>
+        <h2 className="headingH2">デッサン</h2>
         <Gallery photos={photos} targetRowHeight={150} onClick={openLightbox} />
         <ModalGateway>
             {viewerIsOpen ? (

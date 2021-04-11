@@ -70,7 +70,7 @@ export default function GalleryArt() {
   return (
     <div className="mainBlock">
       <div className="mainBlockMargin">
-        <h2 className="headingH2">作品集</h2>
+        <h2 className="headingH2">ファンアート＆作品集</h2>
         <Gallery photos={photos} targetRowHeight={150} onClick={openLightbox} />
         <ModalGateway>
             {viewerIsOpen ? (

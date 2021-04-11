@@ -8,7 +8,7 @@ export default function OtherSkill() {
           <table className="tableSimple">
             <tbody>
               <tr><th>認定心理士</th><td>自分の健康管理のため、また、デザインやアートの根本原理を学ぶため、2018年に日本心理学会 認定心理士の資格を取得しました。</td></tr>
-              <tr><th>興味・関心</th><td>古代史や人類史など。ビジネスや作品のヒントをインプットしています。</td></tr>
+              <tr><th>興味・関心</th><td>脳科学、古代史、人類史など。ビジネスや作品のヒントをインプットしています。</td></tr>
             </tbody>
           </table>
         </section>

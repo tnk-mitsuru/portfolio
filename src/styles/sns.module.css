@@ -1,9 +1,8 @@
 .accounts {
-    display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     & li {
-        padding: 0 28px 0 0;
+        padding: 8px 8px;
         & a {
             display: block;
             line-height: 24px;
@@ -15,12 +14,4 @@
             border-radius: 4px
         }
     }
-}
-@media screen and (max-width:730px){
-.accounts {
-    display: block;
-    & li {
-        padding: 0 0 24px 0;
-    }
-}
 }

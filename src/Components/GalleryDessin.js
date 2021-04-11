@@ -3,7 +3,7 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import art4 from '../images/dessin_misao.jpg';
+import art4 from '../images/dessin_kenshin.jpg';
 import art3 from '../images/dessin_egg.jpg';
 import art2 from '../images/dessin_earth.jpg';
 import art1 from '../images/dessin_bathroom.jpg';

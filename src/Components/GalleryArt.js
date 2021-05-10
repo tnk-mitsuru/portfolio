@@ -3,8 +3,6 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import art8 from '../images/conceptArt_kiki.jpg';
-import art7 from '../images/conceptArt_kiki_process.jpg';
 import art6 from '../images/conceptArt_rescue.jpg';
 import art5 from '../images/conceptArt_rescue_process.jpg';
 import art4 from '../images/conceptArt_research.jpg';
@@ -14,16 +12,6 @@ import art1 from '../images/conceptArt_city.jpg';
 
 export default function GalleryArt() {
     const photos = [
-        {
-          src: art8,
-          width: 1.8,
-          height: 1
-        },
-        {
-          src: art7,
-          width: 1.8,
-          height: 1
-        },
         {
           src: art6,
           width: 1.8,
@@ -70,7 +58,7 @@ export default function GalleryArt() {
   return (
     <div className="mainBlock">
       <div className="mainBlockMargin">
-        <h2 className="headingH2">ファンアート＆作品集</h2>
+        <h2 className="headingH2">作品集</h2>
         <Gallery photos={photos} targetRowHeight={150} onClick={openLightbox} />
         <ModalGateway>
             {viewerIsOpen ? (

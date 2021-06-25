@@ -15,7 +15,7 @@ export default function Home() {
       <ContentsNav />
       <OtherSkill />
       <Biography />
-      <Sns />
+      {/* <Sns /> */}
     </div>
   );
 }
